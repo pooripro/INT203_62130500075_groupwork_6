@@ -1,0 +1,57 @@
+/* green #03EF62  fonts #DEB617 hover: #213147*/
+
+#navbar {
+    background-color: #05192D;
+    color: white;
+    font-size: 120%;
+}
+
+body {
+    background-color: #05192D;
+}
+
+h1 {
+    font-size: 250%;
+    color: white;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 175%;
+    color: white;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 150%;
+    color: white;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 120%;
+    color: white;
+    font-weight: 450;
+}
+
+p {
+    color: #9BA3AB;
+}
+
+.menubar:hover {
+    background-color: #213147;
+}
+
+.signin:hover {
+    border-color: #03EF62 ;
+    background-color: #213147;
+}
+
+.getstarted:hover {
+    background-color: #03EF62;
+}
+
+.sendmeupdates:hover {
+    /* #65FF8F */
+    background-color: red;
+}
