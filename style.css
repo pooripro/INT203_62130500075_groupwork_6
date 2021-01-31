@@ -10,18 +10,6 @@ body {
     background-color: #05192D;
 }
 
-h1 {
-    font-size: 250%;
-    color: white;
-    font-weight: bold;
-}
-
-h3 {
-    font-size: 175%;
-    color: white;
-    font-weight: 500;
-}
-
 h4 {
     font-size: 150%;
     color: white;
@@ -32,10 +20,6 @@ h5 {
     font-size: 120%;
     color: white;
     font-weight: 450;
-}
-
-p {
-    color: #9BA3AB;
 }
 
 .menubar:hover {
@@ -51,7 +35,11 @@ p {
     background-color: #03EF62;
 }
 
+.sendmeupdates {
+    background-color: #03EF62;
+    color: #05192D;
+}
 .sendmeupdates:hover {
     /* #65FF8F */
-    background-color: red;
+    background-color: #65FF8F;
 }
