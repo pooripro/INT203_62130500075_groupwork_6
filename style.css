@@ -12,14 +12,10 @@ body {
 
 h4 {
     font-size: 150%;
-    color: white;
-    font-weight: 500;
 }
 
 h5 {
     font-size: 120%;
-    color: white;
-    font-weight: 450;
 }
 
 .menubar:hover {
@@ -40,6 +36,5 @@ h5 {
     color: #05192D;
 }
 .sendmeupdates:hover {
-    /* #65FF8F */
     background-color: #65FF8F;
 }
