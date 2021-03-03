@@ -23,17 +23,18 @@ const app = Vue.createApp({
         }
     },
     methods: {
-        checkForm() {
-            this.errors = validate({ firstname: this.firstname }, constraints)
-            if (!this.firstname) {
-                this.errors.push('First name required.')
+        checkForm(e) {
+            this.errors = validate({
+                firstname: this.firstname,
+                lastname: this.lastname,
+                age: this.age
+            },
+                constraints)
+
+            if(this.errors){
+                e.preventDeault();
             }
-            if (!this.lastname) {
-                this.errors.push('last name required.')
-            }
-            if (!this.age) {
-                this.errors.push('age name required.')
-            }
+            
             if (!this.errors) {
                 alert("Registered successfully.")
             }
