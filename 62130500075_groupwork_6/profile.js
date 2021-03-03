@@ -1,14 +1,20 @@
 const constraints = {
     firstname: {
-        presence: true,
+        presence: {
+            message: "is required"
+        }
     },
 
     lastname: {
-        presence: true,
+        presence: {
+            message: "is required"
+        }
     },
 
     age: {
-        presence: true,
+        presence: {
+            message: "is required",
+        }
     }
 }
 
@@ -31,10 +37,10 @@ const app = Vue.createApp({
             },
                 constraints)
 
-            if(this.errors){
+            if (this.errors) {
                 e.preventDeault();
             }
-            
+
             if (!this.errors) {
                 alert("Registered successfully.")
             }
